@@ -1,0 +1,35 @@
+# Ignore .NET build artifacts
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.swp
+*.tmp
+*.bak
+
+# Logs and temporary files
+*.log
+*.tlog
+*.DS_Store
+*.vscode
+.vs/
+node_modules/
+
+# Git and environment files
+.git/
+.gitignore
+.env
+.env.*
+
+# IDE files
+.idea/
+*.dbmdl
+
+# Test results
+TestResults/
+
+# Other config files not needed in container
+DynamicProfileAPI.http
